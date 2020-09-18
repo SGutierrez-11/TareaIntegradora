@@ -1,0 +1,3 @@
+public enum Utility{
+	OBRANEGRA, OBRABLANCA,PINTURA
+}
