@@ -43,15 +43,15 @@ public class tarea{
 					
 					switch (joinUtility){
 						case 1:
-							work[i]=Utility.OBRANEGRA;
+							work[i]=Utility.BLACKWORK;
 							blackW++;
 							break;
 						case 2:
-							work[i]=Utility.OBRABLANCA;
+							work[i]=Utility.WHITEWORK;
 							whiteW++;
 							break;
 						case 3:
-							work[i]=Utility.PINTURA;
+							work[i]=Utility.PAINTING;
 							paintW++;
 							break;
 					}
@@ -180,17 +180,17 @@ public class tarea{
 					
 					switch (joinUbication){
 						case 1:
-							placeUbi=Ubication.NORTE;
+							placeUbi=Ubication.NORTH;
 								break;
 						case 2:
-							placeUbi=Ubication.CENTRO;
+							placeUbi=Ubication.CENTER;
 								break;
 						case 3:
-							placeUbi=Ubication.SUR;
+							placeUbi=Ubication.SOUTH;
 								break;
 					}
 					
-					if (placeUbi==Ubication.NORTE){              // DELIVERY AT NORTH     <--------------------------------NORTH
+					if (placeUbi==Ubication.NORTH){              // DELIVERY AT NORTH     <--------------------------------NORTH
 						
 						if(hcPayment>300000){                                                  // TOTAL PURCHASE HOMECENTER
 				
@@ -235,7 +235,7 @@ public class tarea{
 								}
 					
 						}
-						if(placeUbi==Ubication.CENTRO){                     // DELIVERY AT CENTER     <------------------------CENTER
+						if(placeUbi==Ubication.CENTER){                     // DELIVERY AT CENTER     <------------------------CENTER
 							
 							if(hcPayment>300000){                                               // TOTAL PURCHASE HOMECENTER
 				
@@ -280,7 +280,7 @@ public class tarea{
 								}
 							
 						}
-						if(placeUbi==Ubication.SUR){                        // DELIVERY AT SOUTH   <---------------------------------SOUTH
+						if(placeUbi==Ubication.SOUTH){                        // DELIVERY AT SOUTH   <---------------------------------SOUTH
 							
 							if(hcPayment>300000){    // TOTAL PURCHASE HOMECENTER
 				
