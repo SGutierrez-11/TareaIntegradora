@@ -5,8 +5,7 @@ public class tarea{
 	
 	/**
 	*createMaterial This method is used for the user to enter the name of each material, quantity and type of use.
-	*<b> pre: </b>: 
-	*<b> pos: </b>:
+	*<b> pos: </b>: I am giving values to the array work
 	*@param material Name of de materials
 	*@param	amountProduct Amount of each material
 	*@param work Type of use
@@ -63,11 +62,6 @@ public class tarea{
 			return output;
 	}
 	
-		/**
-	*main This method is used for the user enter different data for the program run. 
-	*<b> pre: </b>:  
-	*<b> pos: </b>:
-	*/
 	
 		public static void main (String[] args){                                 // MAIN METHOD 
 			
